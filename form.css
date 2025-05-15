@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  /* Imagen de fondo centrada, sin repetir */
+  background: url("/assets/img/nmhx_no_sign-9453-scaled.jpg") no-repeat center center;
+  /* Ajusta la imagen para que quepa completa sin recortarse */
+  background-size: contain;
+  /* Color de fondo de respaldo si hay espacio sobrante */
+  background-color: #f0f0f0;
+  padding: 2rem;
+  min-height: 100vh;
+}
+  
+  #form-wrapper {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .step {
+    display: none;
+  }
+  .step.active {
+    display: block;
+  }
+  
+  input, select, button {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+
+  .hero-overlay h1{
+    background-color: #024c33c4;
+    color: #ffd76b;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 0px;
+
+  }
+  .hero-overlay p {
+    color: #024c33;
+    font-size: large;
+    font-weight: bolder;
+    background-color: #ffd86bcd;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 150px;
+  }
+  
